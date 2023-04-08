@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Timed Quiz</title>
+</head>
+
+<body>
+
+    <div class="timer" id="timer"><p id="time">0</p> </div>
+
+    <div class="start" id="start"> 
+        <h1 class="header"> Welcome! Take this quiz! </h1>
+        <p>Answer the below multiple choice question!</p>
+        <button id="startButton">Start Quiz</button>
+    </div>
+
+
+    <div id="questions" class="hide">
+        <h2 id="q-title"></h2>
+        <div id="choices">
+
+        </div>
+    </div>
+    <div class="answer" id="answer"> </div>
+    <div class="next" id="next"> </div>
+    <div class="feedback" id="feedback"> </div>
+    <div class="gameover" id="gameover"> </div>
+    <div class="score" id="score"> </div>
+    
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
